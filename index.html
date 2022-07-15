@@ -8,72 +8,75 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='font-awesome.css'>
+    <link rel='stylesheet' href='style.css'>
 </head>
 
 <body>
     <nav>
         <img src='assets/logo.png' alt='Logo'>
         <ul class="main-menu">
-            <li>Home
-                <ul>
-                    <li>Home One</li>
-                    <li>Home Two</li>
+            <li><a>Home</a>
+                <ul class='dropdown'>
+                    <li><a>Home One</a></li>
+                    <li><a>Home Two</a></li>
                 </ul>
             </li>
-            <li>About</li>
-            <li>Services
-                <ul>
-                    <li>Service 01</li>
-                    <li>Service 02</li>
-                    <li>Service Details</li>
+            <li><a>About</a></li>
+            <li><a>Services</a>
+                <ul class='dropdown'>
+                    <li><a>Service 01</a></li>
+                    <li><a>Service 02</a></li>
+                    <li><a>Service Details</a></li>
                 </ul>
             </li>
-            <li>Portfolio
-                <ul>
-                    <li>Portofolio List
-                    <li>Grid View 01</li>
-                    <li>Grid View 02</li>
-                    <li>Masonry View 01</li>
-                    <li>Masonry View 02</li>
+            <li><a>Portfolio</a>
+                <ul class='dropdown'>
+                    <li><a>Portofolio List
+                        </a>
+                    <li><a>Grid View 01</a></li>
+                    <li><a>Grid View 02</a></li>
+                    <li><a>Masonry View 01</a></li>
+                    <li><a>Masonry View 02</a></li>
             </li>
-            <li>Portofolio Details</li>
+            <li><a>Portofolio Details</a></li>
         </ul>
         </li>
-        <li>Blog
-            <ul>
-                <li>Blog Standart
-                    <ul>
-                        <li>Left Sidebar</li>
-                        <li>No Sidebar</li>
-                        <li>Right Sidebar</li>
-                    </ul>
+        <li><a>Blog
+            </a>
+            <ul class='dropdown'>
+                <li><a>Blog Standart
+                    </a>
                 </li>
-                <li>Blog Grid+
-                    <ul>
-                        <li>Left Sidebar</li>
-                        <li>No Sidebar</li>
-                        <li>Right Sidebar</li>
-                    </ul>
+                <li><a>Blog Grid+
+                    </a>
                 </li>
-                <li>Blog Single</li>
+                <li><a>Blog Single</a></li>
             </ul>
         </li>
-        <li>Pages
-            <ul>
-                <li>Team</li>
-                <li>Testimonials</li>
-                <li>Help & FAQ's</li>
-                <li>Contact</li>
-                <li>Error 404</li>
+        <li><a>Pages
+            </a>
+            <ul class='dropdown'>
+                <li><a>Team</a></li>
+                <li><a>Testimonials</a></li>
+                <li><a>Help & FAQ's</a></li>
+                <li><a>Contact</a></li>
+                <li><a>Error 404</a></li>
             </ul>
         </li>
         </ul>
-        <i class="fa fa-search"></i>
-        <i class="fa fa-share"></i>
-        <i class="fa fa-phone"></i>
-        <div>
-            <span>Get Help</span>
-            <span>+123 456 7890</span>
+        <div class="left-item">
+            <div class="social-icons">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <i class="fa fa-phone telephone-icon"></i>
+            <div>
+                <span>Get Help</span>
+                <span class="telephone-number">+123 456 7890</span>
+            </div>
         </div>
     </nav>
     <div class="main-headline">

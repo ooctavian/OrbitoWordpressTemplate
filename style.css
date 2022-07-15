@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+body {
+        font-family: 'Roboto', sans-serif;
+}
+.telephone-icon {
+    font-size: 1.15em;
+    background-color: #eef7f8;
+    color: #343c55;
+    padding: 11px 13px;
+    border-radius: 90px;
+    line-height: 18px;
+}
+.telephone-number {
+    font-size: larger;
+    font-weight: bold;
+    display:block;
+}
+.fa-facebook {
+    color: #1877F2;
+}
+.fa-twitter {
+    color:#1DA1F2;
+}
+.fa-linkedin {
+    color:#0077B5;
+}
+.fa-instagram {
+    color:#405DE6;
+}
+
+.social-icons i{
+    padding: 10px;
+}
+nav a:hover{
+    color:#946E83;
+    cursor: pointer;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 40px;
+    width: 100%;
+
+}
+nav img {
+    height: 40px;
+    width: auto;
+}
+li {
+    list-style: none;
+}
+
+.main-menu  {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu > li {
+    padding: 10px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.main-menu>li:hover .dropdown {
+    display: block;
+}
+.main-menu>li:hover .dropdown>.dropdown{
+    display:none;
+}
+nav .left-item {
+    display:flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #f9758f;
+}
+
+footer{
+    background-color: rgb(42,37,54);
+    color: #fff;
+}
