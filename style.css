@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
 body {
-        font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background: #FEFEFE;
 }
 .telephone-icon {
     font-size: 1.15em;
@@ -9,6 +10,9 @@ body {
     padding: 11px 13px;
     border-radius: 90px;
     line-height: 18px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
 }
 .telephone-number {
     font-size: larger;
@@ -86,5 +90,80 @@ h3 {
 
 footer{
     background-color: rgb(42,37,54);
+    color: #fff;
+}
+
+/* Main headline */
+.main-headline{
+    color: #fff;
+    background-image:url("./assets/background1.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+   padding: 10px;
+}
+
+.main-headline a {
+    background: #f9758f;
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.circle{
+    border-radius: 10px;
+}
+.offers h2,.offers h3 {
+    text-align:center;
+}
+
+.offers i{
+    color: #07BBF8;
+    font-size: 4em;
+}
+
+.offers .card {
+    background: #FFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.card-holder {
+    display: flex;
+    gap: 10px;
+}
+
+.offers a {
+    color: #53435A;
+    text-decoration: none;
+}
+.offers a:after {
+    color: #f9758f;
+    content: " > ";
+}
+
+.company-logos img{
+    filter: grayscale(85%);
+}
+.company-logos img:hover{
+    filter: grayscale(0%);
+}
+
+.first-part {
+    display: flex;
+    justify-content:space-between;
+}
+.first-part .wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.first-part a {
+    background-color: #f9758f;
+    font-weight: bold;
+    height: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    line-height: 18px;
     color: #fff;
 }
