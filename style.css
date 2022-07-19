@@ -360,7 +360,7 @@ footer i{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 30px;
     border-radius: 10px;
-    width:210px;
+    width:200px;
 }
 .card-holder {
     display: flex;
@@ -716,7 +716,7 @@ footer i{
 .category{
     width: 80%;
     margin: 0 auto;
-    padding: 0 80px;
+    padding: 80px 0;
 }
 
 .dots{
