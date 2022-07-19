@@ -14,6 +14,9 @@
 <body>
     <nav>
         <img src='assets/logo.png' alt='Logo'>
+        <div class=menu-toggle>
+            Menu
+        </div>
         <ul class="main-menu">
             <li><a>Home</a>
                 <ul class='dropdown'>
@@ -73,25 +76,27 @@
                 <i class="fa fa-instagram" aria-hidden="true"></i>
             </div>
             <i class="fa fa-phone telephone-icon"></i>
-            <div>
+            <div class="get-help">
                 <span>Get Help</span>
                 <span class="telephone-number">+123 456 7890</span>
             </div>
         </div>
     </nav>
     <div class="main-headline">
-        <div class="circle">
-            <div>
-                <h3>We are Orbito</h3>
-                <h1>World Leading Creative Age</h1>
-                <p>Mation ullamco laboris nisi ut aliquip ex ea core dolor in reprehend er fugiat nulla pariatur</p>
-                <a href="#">Read More</a>
+        <div class="circle-wrapper">
+            <div class="circle">
+                <div>
+                    <h3>We are Orbito</h3>
+                    <h1>World Leading Creative Age</h1>
+                    <p>Mation ullamco laboris nisi ut aliquip ex ea core dolor in reprehend er fugiat nulla pariatur</p>
+                    <a href="#">Read More</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class='offers'>
+    <div class='offers category'>
         <h3>What we offer</h3>
-        <h2>We Create Your Amazing Digital Experience</h2>
+        <h2>We Create Your Amazing<br>Digital Experience</h2>
         <div class='card-holder'>
             <div class='card'>
                 <i class="fa fa-window-maximize" aria-hidden="true"></i>
@@ -124,24 +129,58 @@
         </div>
     </div>
     <div class="about-us">
-        <h3>About Us</h3>
-        <h2>A World Leading Digital Solution Provider</h2>
-        <p>Mation ullamco laboris nisi ut alior in rep rehend er fugiat nulla pariatur.</p>
-        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum. Sed ut perspicia tis unde omni od tempor incididunt ut labore.</p>
-        <div class="section">
-            <i class="fa fa-calendar-minus-o" aria-hidden="true"></i>
-            <h4>Business Strategy</h4>
-            <p>Bempor incididunt ut labore et dolore</p>
+        <div class="container category">
+            <div class="image-grid">
+                <div class="image-grid-container a">
+                    <img src="https://images.unsplash.com/photo-1658163724548-29ef00812a54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="image">
+                </div>
+                <div class="image-grid-container b">
+                    <img src="https://images.unsplash.com/photo-1658163724548-29ef00812a54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                        alt="image">
+                </div>
+                <img src="https://images.unsplash.com/photo-1658163724548-29ef00812a54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                    alt="image" class="c">
+                <img src="https://images.unsplash.com/photo-1658163724548-29ef00812a54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                    alt="image" class="d">
+                <div class="wrapper">
+                    <div class="years">
+                        <span>12</span>
+                        Successful
+                        <br>
+                        Years
+                    </div>
+                </div>
+            </div>
+            <div class='second-part'>
+                <h3>About Us</h3>
+                <h2>A World Leading Digital Solution Provider</h2>
+                <div>Mation ullamco laboris nisi ut alior in rep rehend er fugiat nulla pariatur.</div>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum. Sed ut perspicia tis unde omni od tempor incididunt ut labore.</p>
+                <div class="section-container">
+                    <div class="section">
+                        <i class="fa fa-calendar-minus-o" aria-hidden="true"></i>
+                        <div>
+                            <h4>Business Strategy</h4>
+                            <p>Bempor incididunt ut labore et dolore</p>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <div>
+                            <h4>Marketing Solution</h4>
+                            <p>Bempor incididunt ut labore et dolore </p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <a href="#">Read More</a>
+            </div>
         </div>
-        <div class="section">
-            <i class="fa fa-briefcase" aria-hidden="true"></i>
-            <h4>Marketing Solution</h4>
-            <p>Bempor incididunt ut labore et dolore </p>
-        </div>
-        <a href="#">Read More</a>
     </div>
-    <div class="portfolio">
+    <div class="portfolio category">
         <h3>Portfolio</h3>
         <h2>Check Our Amazing Works</h2>
 
@@ -154,6 +193,17 @@
             <img src="assets/work-2.jpg" alt="work 2">
             <img src="assets/work-3.jpg" alt="work 3">
         </div>
+        <div class="dots">
+            <div class="dot">
+                <div></div>
+            </div>
+            <div class="dot active">
+                <div></div>
+            </div>
+            <div class="dot">
+                <div></div>
+            </div>
+        </div>
     </div>
     <div class="company-logos">
         <img src="assets/company-logo1.png" alt="company logo">
@@ -162,21 +212,7 @@
         <img src="assets/company-logo4.png" alt="company logo">
         <img src="assets/company-logo5.png" alt="company logo">
     </div>
-    <div class="stats">
-        <div class="card">
-            <span class="numbers">120</span>
-            <p>Total Countries</p>
-        </div>
-        <div class="card">
-            <span class="numbers">2K</span>
-            <p>Total Countries</p>
-        </div>
-        <div class="card">
-            <span class="numbers">10K</span>
-            <p>Total Countries</p>
-        </div>
-    </div>
-
+    <hr>
     <div class="team-members-heading">
         <h3>Team members</h3>
         <h1>Amazing Team Members</h1>
@@ -197,69 +233,110 @@
             <img src="assets/team-member-4.jpg" alt="Team Member 4">
         </div>
     </div>
+
+    <div class="stats">
+        <div class="card">
+            <div class="numbers">
+                <span>120</span>
+            </div>
+            <p>Total<br>Countries</p>
+        </div>
+        <div class="card">
+            <div class="numbers">
+                <span>2K</span>
+            </div>
+            <p>Worldwide<br>Customers</p>
+        </div>
+        <div class="card">
+            <div class="numbers">
+                <span>10K</span>
+            </div>
+            <p>Completed<br>Projects</p>
+        </div>
+    </div>
+
     <div class="blog">
         <h3>From Our Blog</h3>
         <h1>Latest News & Updates</h1>
-        <div class="blog-layout">
-            <div class="card">
-                <div class="date">
-                    <b>24</b>
-                    Jun
-                </div>
-                <img src="assets/blog-1.jpg" alt="blog post 1">
-                <div class="post">
-                    <div class="info">
-                        <i class="fa fa-folder-open" aria-hidden="true"></i>
-                        Buisness
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        Admin
-                        <i class="fa fa-comments" aria-hidden="true"></i>
-                        4
-                    </div>
-                    <h5>Creating Efficiences for Clients in Their CMS</h5>
-                </div>
-            </div>
-            <div>
+        <div class="center">
+            <div class="blog-layout">
+
                 <div class="card">
                     <div class="date">
                         <b>24</b>
                         Jun
                     </div>
-                    <img src="assets/blog-2.jpg" alt="blog post 2">
-                    <div class="post">
-                        <div class="info">
-                            <i class="fa fa-folder-open" aria-hidden="true"></i>
-                            Crytical Analysis
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                            Admin
-                            <i class="fa fa-comments" aria-hidden="true"></i>
-                            5
+
+                    <div class="image-wrapper">
+                        <img src="assets/blog-1.jpg" alt="blog post 1">
+                        <div class="post-wrapper">
+                            <div class="post">
+                                <div class="info">
+                                    <i class="fa fa-folder-open" aria-hidden="true"></i>
+                                    Buisness
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    Admin
+                                    <i class="fa fa-comments" aria-hidden="true"></i>
+                                    4
+                                </div>
+                                <p>Creating Efficiences for Clients in Their CMS</p>
+                            </div>
                         </div>
-                        <h5>Creating Efficiences for Clients in Their CMS</h5>
                     </div>
                 </div>
-            </div>
-            <div>
+
                 <div class="card">
                     <div class="date">
                         <b>24</b>
                         Jun
                     </div>
-                    <img src="assets/blog-3.jpg" alt="blog post 3">
-                    <div class="post">
-                        <div class="info">
-                            <i class="fa fa-folder-open" aria-hidden="true"></i>
-                            Buisness
-                            <i class="fa fa-user" aria-hidden="true"></i>
-                            Admin
-                            <i class="fa fa-comments" aria-hidden="true"></i>
-                            4
+
+                    <div class="image-wrapper">
+                        <img src="assets/blog-2.jpg" alt="blog post 2">
+                        <div class="post-wrapper">
+                            <div class="post">
+                                <div class="info">
+                                    <i class="fa fa-folder-open" aria-hidden="true"></i>
+                                    Buisness
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    Admin
+                                    <i class="fa fa-comments" aria-hidden="true"></i>
+                                    4
+                                </div>
+                                <p>Creating Efficiences for Clients in Their CMS</p>
+                            </div>
                         </div>
-                        <h5>Creating Efficiences for Clients in Their CMS</h5>
                     </div>
                 </div>
+
+                <div class="card">
+                    <div class="date">
+                        <b>24</b>
+                        Jun
+                    </div>
+
+                    <div class="image-wrapper">
+                        <img src="assets/blog-3.jpg" alt="blog post 3">
+                        <div class="post-wrapper">
+                            <div class="post">
+                                <div class="info">
+                                    <i class="fa fa-folder-open" aria-hidden="true"></i>
+                                    Buisness
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    Admin
+                                    <i class="fa fa-comments" aria-hidden="true"></i>
+                                    4
+                                </div>
+                                <p>Creating Efficiences for Clients in Their CMS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <div class='back-to-top'>
         hello
@@ -272,49 +349,51 @@
                 <h1>Let's Create Something Together</h1>
                 <p>Pure dolor in reprehenderit in voluptate velit essm dolore eu fugiat</p>
             </div>
-            <div>
+            <div class="contact-us">
                 <a>Contact Us</a>
             </div>
         </div>
         <hr>
-        <div class='wrapper'>
-            <div>
-                <img src="assets/logo_white.png" alt="logo">
-                <p>Duis aute irure dolor in reprehender it in voluptate velit esse cillum</p>
-                <ul>
-                    <li><i class="fa fa-map-marker" aria-hidden="true"></i> 200 Bordeshi, New York, USA</li>
-                    <li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 789000</li>
-                    <li><i class="fa fa-envelope" aria-hidden="true"></i> hello@orbito.com</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Services</h4>
-                <ul>
-                    <li>Website Design</li>
-                    <li>Web Development</li>
-                    <li>SEO Optimization</li>
-                    <li>Digital Marketing</li>
-                    <li>Online Security</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Useful links</h4>
-                <ul>
-                    <li>About Us</li>
-                    <li>Company Profile</li>
-                    <li>Team Members</li>
-                    <li>Support</li>
-                    <li>Career</li>
-                </ul>
-            </div>
-            <div>
-                <h4>Newsletter</h4>
-                <p>
-                    Duis aute irure dolor in reprehender it in voluptate velit esse cillum
-                </p>
-                <div class="search-bar">
-                    <input placeholder="Your email here">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+        <div class="center">
+            <div class='wrapper'>
+                <div>
+                    <img src="assets/logo_white.png" alt="logo">
+                    <p>Duis aute irure dolor in reprehender it in voluptate velit esse cillum</p>
+                    <ul>
+                        <li><i class="fa fa-map-marker" aria-hidden="true"></i> 200 Bordeshi, New York, USA</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> +123 456 789000</li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i> hello@orbito.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Website Design</li>
+                        <li>Web Development</li>
+                        <li>SEO Optimization</li>
+                        <li>Digital Marketing</li>
+                        <li>Online Security</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Useful links</h4>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Company Profile</li>
+                        <li>Team Members</li>
+                        <li>Support</li>
+                        <li>Career</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Newsletter</h4>
+                    <p>
+                        Duis aute irure dolor in reprehender it in voluptate velit esse cillum
+                    </p>
+                    <div class="search-bar">
+                        <input placeholder="Your email here">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </div>
                 </div>
             </div>
         </div>
